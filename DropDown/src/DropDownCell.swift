@@ -29,6 +29,7 @@ extension DropDownCell {
 		super.awakeFromNib()
 		
 		backgroundColor = .clear
+		layoutMargins = UIEdgeInsets.zero
 	}
 	
 	override open var isSelected: Bool {
